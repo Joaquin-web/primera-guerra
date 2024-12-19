@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2d2d2d;
+    padding: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Línea de Tiempo */
+.timeline {
+    padding: 3em 1em;
+    text-align: center;
+    background-color: #fff;
+}
+
+.timeline h1 {
+    font-size: 2.5em;
+    margin-bottom: 1.5em;
+    font-family: 'Spectral SC', serif;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.timeline-event {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.timeline-event:hover {
+    transform: scale(1.05);
+}
+
+.timeline-event img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.timeline-event h3 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.timeline-event p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Figuras Clave */
+.figures {
+    padding: 3em 1em;
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+}
+
+.figures h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-family: 'Spectral SC', serif;
+}
+
+.figure-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #444;
+    padding: 2em;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.card h3 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.card p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}

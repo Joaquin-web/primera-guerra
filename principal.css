@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2d2d2d;
+    padding: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/guerra_hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5em 1em;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    font-family: 'Spectral SC', serif;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Highlights Section */
+.highlights {
+    padding: 3em 1em;
+    text-align: center;
+    background-color: #fff;
+}
+
+.highlights h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-family: 'Spectral SC', serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.card h3 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.card p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Statistics Section */
+.statistics {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.statistics h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    font-family: 'Spectral SC', serif;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.stat {
+    background-color: #444;
+    padding: 2em;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stat h3 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.stat p {
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #2d2d2d;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
